@@ -20,7 +20,9 @@ public class Color
     //Constructor that will initialize the value of colors that are passed as the parameter
     public Color(int red, int green, int blue)
     {
-
+        this.red = red;
+        this.green = green;
+        this.blue = blue;
     }
 
     //Methods to increase or decrease the red, green and blue components
